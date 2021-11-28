@@ -1,0 +1,237 @@
+﻿@media only screen and (max-width: 1150px) {
+    
+    /*Logo*/
+    .logo {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+
+    /*Navigation*/
+    nav ul li a {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 970px) {
+
+    /*Navigation*/
+    nav {
+        background: rgba(0, 0, 0, 0.855);
+        box-shadow: none;
+        border-bottom: none;
+    }
+
+    /*List menu*/
+    nav ul {
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 500px;
+        background: rgba(0, 0, 0, 0.855);
+        box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.336);
+        border-bottom: 2px solid black;
+        top: 80px;
+        text-align: center;    
+    }
+
+    nav ul li {
+        display: block;
+    }
+
+    nav ul li a{
+        font-size: 20px;
+    }
+
+    /* Menu icon - unhidde*/
+    .menu-btn {
+        display: flex; 
+    }
+
+}
+
+@media only screen and (max-width: 920px) {
+    /*Photogalery stop effect*/
+    .photogalery img {
+        opacity: 1;
+        transform: none;
+    }
+
+    .photogalery img:hover {
+        transform: none;
+        transition: all 0s;
+        opacity: 1;
+    }
+
+    .photogalery li {
+        background-color: white;
+    }   
+    
+    /*Footer*/
+    footer {
+        background: rgba(207, 0, 0, 1);
+        margin-top: 30px;       
+        padding-bottom: 30px;
+        color: white;
+    }
+
+    .social {
+        position: static;
+        margin-left: 0px;
+    }
+
+    .social h4 {
+        text-align: justify;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 30px;
+    }
+
+    .facebook img {
+        position: absolute;
+        float: left;
+        margin-left: 30px;
+        margin-right: 0px;
+        margin-top: 0px;
+        margin-bottom: 15px;
+        height: 50px;
+    }
+
+    .instagram img {
+        position: relative;
+        float: left;
+        margin-left: 100px;
+        margin-right: 0px;
+        margin-top: 0px;
+        margin-bottom: 15px;
+        border-radius: 12px;
+        height: 50px;
+    }
+
+    .footer_text {
+        position: static;
+        float: none;
+        text-align: center;
+        margin-top: 30px;      
+        margin-left: 0px;
+        font-size: 14px;
+    }
+
+    .open_hours {
+        position: static;
+        float: none;
+        text-align: justify;
+        margin-right: 0px;
+        margin-left: 30px;
+    }
+
+    .open_hours ul {
+        font-size: 13px;
+        letter-spacing: 0.25px;
+    }
+
+    /*Background text - smaller font*/
+    .background_text p {
+        font-size: 35px;
+    }
+
+    .background_text .button {
+        font-size: 35px;
+    }
+
+    /*About us - smaller font*/
+    .about_us p {
+        font-size: 16px;
+        letter-spacing: 0.5px;
+    }
+
+    /*Customers references - smaller font*/
+    .customer_reference p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    /*Logo*/
+    .logo {
+        font-size: 30px;
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+
+    /*Navigation - smaller font*/
+    nav ul li a {
+        font-size: 15px;
+    }
+
+    /*Background text - smaller font*/
+    .background_text p {
+        font-size: 28px;
+    }
+
+    .background_text .button {
+        font-size: 28px;
+        padding: 5px 32px;
+    }
+
+    /*Stop buttons effect for mobile platforms*/
+    .background_text .button:hover {
+        background-color: rgba(207, 0, 0, 1);
+        color: white;
+        transition: none;
+    }
+
+    .item_list .button_order:hover {
+        background-color: rgba(207, 0, 0, 1);
+        color: white;
+        box-shadow: 1.5px 1.5px 3px rgba(0,0,0,0.236);
+        transition: none;
+    }
+
+    input[type="submit"]:hover {
+        background-color: rgba(207, 0, 0, 1);
+        color: white;
+        box-shadow: 1.5px 1.5px 3px rgba(0,0,0,0.236);
+        transition: none;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    /*Logo*/
+    .logo {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    /*Shopping cart icon - smaller*/
+    .shopping_cart img {
+        height: 30px;
+        margin-right: 20px;
+        margin-top: 25px;
+    }
+
+    /*Menu icon - smaller*/
+    .menu-btn {
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+        margin-top: 20px;
+    }
+
+    .menu-btn__burger {
+        width: 40px;
+        height: 4px;
+        margin-right: 0px;
+    }
+
+    .menu-btn__burger::before,
+    .menu-btn__burger::after {
+        width: 40px;
+        height: 4px;
+
+    }
+
+    /*Navigation*/
+    nav ul li {
+        line-height: 60px;
+    }
+}
